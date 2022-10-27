@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
+var iconn = Icon(Icons.arrow_back);
 var trailingText = "Reset";
 
 class Header extends StatelessWidget {
@@ -10,9 +8,6 @@ class Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: Icon(Icons.arrow_back),
-      trailing: Text(trailingText),
-    );
+    return Stack(children: <Widget>[Text(trailingText), iconn]);
   }
 }
