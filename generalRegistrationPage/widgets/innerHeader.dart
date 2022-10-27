@@ -10,8 +10,7 @@ class InnerHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text("Genel Kayıt Sayfası",
-          style: TextStyle(fontSize: 20.sp, color: Colors.amber)),
-    );
+       );
+    
   }
 }
